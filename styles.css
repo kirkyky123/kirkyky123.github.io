@@ -8,34 +8,49 @@ h1, h2, h3 {
   color: #ffffff;
 }
 
-p{
-  padding-top: 50px;
-}
-
-h1{
-  text-align: center;
-}
-
-a {
-  font-weight: bold;
-  text-decoration: none;
-  color: #000000;
-}
-
-a:hover {
-  color: #6965E6;
-}
-
 .container {
   border-radius: 20px;
   width: 80%;
-  margin: 0 auto;
+  margin: 50px auto;
   background-color: #c3afeb;
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 
-.container h3{
-  margin-left: 1400px;
-  margin-top: -55px;
+.name {
+  position: absolute;
+  top: 5%;
+}
+
+.all-assignments-projects {
+  justify-content: space-around;
+}
+
+.assignment-project {
+  background-color: #ffffff97;
+  padding: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.assignment-project h3 {
+  margin: 0;
+  color: #333;
+  padding: 10px 0;
+  word-wrap: break-word;
+}
+
+.assignment-project img:hover {
+  transform: scale(1.1);
+}
+
+@media (min-width: 1360px) {
+  .assignment-project {
+    width: calc(33.333% - 40px);
+  }
+  .all-assignments-projects{
+    display: flex;
+  }
 }
