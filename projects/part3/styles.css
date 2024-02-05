@@ -1,0 +1,47 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2em;
+  margin-bottom: 80px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+}
+.stats a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.stats-box {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: white;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.stats-box p {
+  font-size: 1.2em;
+  margin: 0;
+  white-space: nowrap;
+}
