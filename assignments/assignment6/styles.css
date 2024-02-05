@@ -8,29 +8,10 @@ h1, h2, h3 {
   color: #ffffff;
 }
 
-.container-middle {
+.container {
+  border-radius: 20px;
   width: 80%;
-  margin: 30px auto;
-  background-color: #c3afeb;
-  padding: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  text-align: center;
-}
-
-.container-bottom {
-  border-radius: 0px 0px 20px 20px;
-  width: 80%;
-  margin: 30px auto;
-  background-color: #c3afeb;
-  padding: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  text-align: center;
-}
-
-.container-top {
-  border-radius: 20px 20px 0px 0px;
-  width: 80%;
-  margin: 20px auto;
+  margin: 50px auto;
   background-color: #c3afeb;
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -40,6 +21,17 @@ h1, h2, h3 {
 .name {
   position: absolute;
   top: 5%;
+}
+
+.assignment-project h3 {
+  margin: 0;
+  color: #333;
+  padding: 10px 0;
+  word-wrap: break-word;
+}
+
+.assignment-project img:hover {
+  transform: scale(1.1);
 }
 
 .all-assignments-projects {
@@ -58,17 +50,6 @@ h1, h2, h3 {
   margin: 10px;
   border-radius: 10px;
   flex: 0 0 auto;
-}
-
-.assignment-project h3 {
-  margin: 0;
-  color: #333;
-  padding: 10px 0;
-  word-wrap: break-word;
-}
-
-.assignment-project img:hover {
-  transform: scale(1.1);
 }
 
 @media (min-width: 1360px) {

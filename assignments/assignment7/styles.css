@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #AF8FF0;
+  background-color: #728be7;
   color: #333;
 }
 
@@ -8,33 +8,32 @@ h1, h2, h3 {
   color: #ffffff;
 }
 
-.container-middle {
-  width: 80%;
-  margin: 30px auto;
-  background-color: #c3afeb;
-  padding: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  text-align: center;
-}
-
-.container-bottom {
+.middle {
   border-radius: 0px 0px 20px 20px;
   width: 80%;
   margin: 30px auto;
-  background-color: #c3afeb;
+  background-color: #ecd075;
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
 
-.container-top {
+.top {
   border-radius: 20px 20px 0px 0px;
   width: 80%;
   margin: 20px auto;
-  background-color: #c3afeb;
+  background-color: #ecd075;
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
+}
+
+#slider {
+  width: 100%;
+}
+
+.top h1{
+  color: #333;
 }
 
 .name {
@@ -42,41 +41,36 @@ h1, h2, h3 {
   top: 5%;
 }
 
-.all-assignments-projects {
+.all-columns {
   justify-content: space-around;
-  display: flex;
-  flex-wrap: nowrap;
-  overflow-x: auto;
-  gap: 10px;
-  padding-bottom: 20px;
 }
 
-.assignment-project {
-  background-color: #ffffff97;
+.column {
+  background-color: #dbd9dd;
   padding: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   margin: 10px;
   border-radius: 10px;
-  flex: 0 0 auto;
 }
 
-.assignment-project h3 {
+.column h3 {
   margin: 0;
   color: #333;
   padding: 10px 0;
   word-wrap: break-word;
 }
 
-.assignment-project img:hover {
-  transform: scale(1.1);
+#image-container {
+  display: inline-block;
+  position: relative;
 }
 
+
 @media (min-width: 1360px) {
-  .assignment-project {
-    width: calc(33.333% - 40px);
+  .column {
+    width: calc(33.333% - 250px);
   }
-  .all-assignments-projects{
+  .all-columns{
     display: flex;
-    justify-content: flex-start
   }
 }

@@ -1,0 +1,46 @@
+<!---Kiran Chhetri CSCE 242-->
+<!---Assignment 7--->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment 7</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="top">
+    <h1>Assignment 7</h1>
+  </div>
+  <div class="middle">
+    <div class="all-columns">
+      <div class="column">
+        <h3>Change Image</h3>
+        <img id="changingImage" src="images/image1.jpg" alt="Image 1" onclick="changeImage()">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi adipisci quo distinctio consequuntur dolor
+          labore, aspernatur consectetur voluptatum fugit accusantium qui voluptate ex corrupti, eos delectus odio vel,
+          amet culpa?</p>
+      </div>
+      <div class="column">
+        <h3>Slider Rotate</h3>
+        <div class="image-container">
+          <img id="rotating_image" src="https://place-hold.it/200" alt="">
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis harum eligendi aspernatur expedita
+          accusamus consequuntur illum id! Maxime, quo magnam officia neque nulla illo accusantium, expedita
+          voluptatibus ut, quas mollitia.</p>
+        <input type="range" id="slider" min="0" max="360" value="0" step="1">
+      </div>
+      <div class="column" id="starsColumn">
+        <h3>Stars</h3>
+      </div>
+    </div>
+  </div>
+  </div>
+  <script src="src.js"></script>
+</body>
+
+</html>
