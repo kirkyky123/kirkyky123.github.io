@@ -1,0 +1,160 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #728be7;
+  color: #333;
+}
+
+h1, h2, h3 {
+  color: #ffffff;
+}
+
+h2{
+
+}
+
+
+.middle {
+  border-radius: 0px 0px 20px 20px;
+  width: 80%;
+  margin: 30px auto;
+  background-color: #ecd075;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.top {
+  border-radius: 20px 20px 0px 0px;
+  width: 80%;
+  margin: 20px auto;
+  background-color: #ecd075;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+#slider {
+  width: 100%;
+}
+
+.top h1, h3{
+  color: #333;
+}
+
+.name {
+  position: absolute;
+  top: 5%;
+}
+
+.all-columns {
+  justify-content: space-around;
+  flex: auto;
+}
+
+.column {
+  background-color: #dbd9dd;
+  padding: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.column h3 {
+  margin: 0;
+  color: #333;
+  padding: 10px 0;
+  word-wrap: break-word;
+}
+
+.column ul, p{
+  text-align: left;
+}
+
+.column input{
+  margin-bottom: 20px;
+}
+
+#image-container {
+  display: inline-block;
+  position: relative;
+}
+
+#yogaSliderImage{
+  padding: 20px;
+}
+
+.exercise-links span {
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.exercise-links span:not(:last-child)::after {
+  content: '|';
+  margin: 0 10px;
+  color: #333;
+}
+
+#exercise2Header{
+  margin: 0 -15px;
+}
+
+.exercise-dropdown {
+  display: none;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content span {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+}
+
+.dropdown-content span:hover {
+  background-color: #f1f1f1;
+}
+
+@media (max-width: 600px) {
+  .exercise-links {
+    display: none;
+  }
+
+  .exercise-dropdown {
+    display: block;
+    position: relative;
+  }
+
+  #dropdownToggle:hover + .dropdown-content,
+  .dropdown-content:hover {
+    display: block;
+  }
+
+  #yogaSliderImage{
+      width: 80%;
+      height: 80%;
+  }
+}
+
+@media (min-width: 1360px) {
+  .column {
+    width: calc(33.333% - 150px);
+  }
+  .all-columns{
+    display: flex;
+  }
+
+  #yogaSliderImage{
+    width: 300;
+    height: 300;
+  }
+}
