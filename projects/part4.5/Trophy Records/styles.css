@@ -112,20 +112,56 @@ html {
 
 
 .stats-image {
-  margin-top: 100px;
-  margin-left: 200px;
-  margin-right: 200px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #27323d;
+  background-color: #ffffff;
   border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 100px auto;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 80%;
   box-sizing: border-box;
 }
 
-.stats-image img {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  max-width: 100%;
-  max-height: 100%;
+#top-stats{
+  background-color: #27323d;
 }
+
+.stats-container {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  max-width: 90%;
+  margin: 50px auto;
+  margin-top: 20px;
+  color: #000;
+}
+
+.stats-flex-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.trophy {
+  flex-basis: calc(33% - 20px);
+  margin: 10px;
+  text-align: center;
+}
+
+.trophy img {
+  max-width: 100%;
+  height: auto;
+}
+
+.caption {
+  font-size: 0.9em;
+  margin-top: 10px;
+}
+
+.stats-container h1 {
+  margin-bottom: 50px;
+  text-align: center;
+}
+

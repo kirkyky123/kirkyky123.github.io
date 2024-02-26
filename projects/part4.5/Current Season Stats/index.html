@@ -1,5 +1,5 @@
 <!---Kiran Chhetri CSCE 242--->
-<!---Current Season Stats--->
+<!---Current Season Statistics--->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -7,7 +7,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Current Season</title>
+  <title>Current Season Statistics</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -31,8 +31,39 @@
       </ul>
     </div>
   </nav>
-  <div class="stats-image">
-    <img src="Pie charts with details.png" alt="Statistics Chart" class="stats-image">
+  <div class="stats-image" id="top-stats">
+    <span class="stats-image">
+      <div class="stats-container">
+        <h1>Current Season Statistics</h1>
+        <div class="stats-flex-container">
+          <div class="chart-container">
+            <div class="donut-chart"></div>
+          </div>
+          <div class="stats-info">
+            <div class="stat">
+              <span class="dot dot-shot"></span>
+              <span class="value">0.28</span>
+              <span class="label">Shot to goal ratio</span>
+            </div>
+            <div class="stat">
+              <span class="dot dot-goal"></span>
+              <span class="value">0.37</span>
+              <span class="label">Goal contribution per game</span>
+            </div>
+            <div class="stat">
+              <span class="dot dot-assist"></span>
+              <span class="value">0.22</span>
+              <span class="label">Assists per game</span>
+            </div>
+            <div class="stat">
+              <span class="dot dot-freekick"></span>
+              <span class="value">0.13</span>
+              <span class="label">Free kicks per game</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </span>
   </div>
   <script src="src.js"></script>
 </body>

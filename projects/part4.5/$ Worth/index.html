@@ -1,10 +1,13 @@
+<!---Kiran Chhetri CSCE 242--->
+<!---Worth--->
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>$ Worth</title>
+  <title>Worth</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -28,11 +31,18 @@
       </ul>
     </div>
   </nav>
-  <div class="stats-image">
-    <img src="Bar chart with title and description.png" alt="Statistics Chart" class="stats-image">
+  <div class="stats-image" id="top-stats">
+    <span class="stats-image">
+      <div class="stats-container">
+        <h1>$ Worth</h1>
+        <div class="stats-flex-container" id="bar-chart-container">
+          <div id="columnchart_values" style="width: 1000px; height: 400px;"></div>
+        </div>
+      </div>
+    </span>
   </div>
-
-  <script src="src.js"></script>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script type="text/javascript" src="src.js"></script>
 </body>
 
 </html>

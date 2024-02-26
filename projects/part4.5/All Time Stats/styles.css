@@ -110,7 +110,6 @@ html {
   display: block;
 }
 
-/* Assuming the rest of your body and navbar CSS remains the same */
 
 .stats-image {
   background-color: #ffffff;
@@ -132,7 +131,7 @@ html {
   background-color: #fff;
   border-radius: 20px;
   padding: 20px;
-  max-width: 80%;
+  max-width: 90%;
   margin: 50px auto;
   margin-top: 20px;
   color: #000;
@@ -205,6 +204,7 @@ html {
 }
 
 .label {
+  margin-left: 10px;
   color: #555;
 }
 
