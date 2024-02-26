@@ -208,32 +208,32 @@ html {
   color: #555;
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 700px) {
   .stats-image {
-    margin: 20px auto; /* Adjust margin for smaller screens */
+    margin: 20px auto;
     max-width: 90%;
   }
 
   .stats-container {
-    padding: 10px; /* Adjust padding for smaller screens */
+    padding: 10px;
     margin: 20px auto;
   }
 
   .stats-flex-container {
-    flex-direction: column; /* Change flex direction for smaller screens */
+    flex-direction: column;
   }
 
   .chart-container {
-    text-align: center; /* Center the chart on smaller screens */
+    text-align: center;
   }
 
   .stats-info {
-    margin-left: 0; /* Reset margin for smaller screens */
-    margin-top: 20px; /* Add some top margin for smaller screens */
+    margin-left: 0;
+    margin-top: 20px;
   }
 
   .stat {
-    margin-bottom: 10px; /* Adjust margin for smaller screens */
-    text-align: center; /* Center the stats on smaller screens */
+    margin-bottom: 10px;
+    text-align: center;
   }
 }

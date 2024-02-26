@@ -208,3 +208,32 @@ html {
   color: #555;
 }
 
+@media (max-width: 700px) {
+  .stats-image {
+    margin: 20px auto;
+    max-width: 90%;
+  }
+
+  .stats-container {
+    padding: 10px;
+    margin: 20px auto;
+  }
+
+  .stats-flex-container {
+    flex-direction: column;
+  }
+
+  .chart-container {
+    text-align: center;
+  }
+
+  .stats-info {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .stat {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+}
