@@ -121,7 +121,7 @@ html {
   padding: 20px;
   display: flex;
   align-items: center;
-  max-width: 80%;
+  max-width: 90%;
   box-sizing: border-box;
 }
 
@@ -149,7 +149,7 @@ html {
 
 .stats-container h1 {
   margin-bottom: 50px;
-  text-align: center;
+  text-align: right;
 }
 
 .info, .table {
@@ -186,3 +186,23 @@ html {
   width: 80%;
 }
 
+@media (max-width: 700px) {
+  .stats-image {
+    flex-direction: column;
+  }
+  .stats-container {
+    padding: 10px;
+  }
+  .stats-container h1 {
+    margin-bottom: 20px;
+  }
+  .info {
+    text-align: center;
+  }
+  .table {
+    overflow-x: auto;
+  }
+  .table table {
+    width: 100%;
+  }
+}

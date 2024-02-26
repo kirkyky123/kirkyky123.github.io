@@ -119,7 +119,7 @@ html {
   padding: 20px;
   display: flex;
   align-items: center;
-  max-width: 80%;
+  max-width: 90%;
   box-sizing: border-box;
 }
 
@@ -165,3 +165,14 @@ html {
   text-align: center;
 }
 
+@media (max-width: 700px) {
+  .stats-flex-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .trophy {
+    flex-basis: auto;
+    margin: 10px 0;
+  }
+}

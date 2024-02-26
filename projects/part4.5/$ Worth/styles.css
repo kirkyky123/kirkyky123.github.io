@@ -119,7 +119,7 @@ html {
   padding: 20px;
   display: flex;
   align-items: center;
-  max-width: 80%;
+  max-width: 90%;
   box-sizing: border-box;
 }
 
@@ -139,11 +139,18 @@ html {
 
 .stats-flex-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  overflow-x: auto;
 }
 
 .stats-container h1 {
   margin-bottom: 50px;
   text-align: center;
+}
+
+@media (max-width: 700px) {
+  #columnchart_values {
+    width: 100%;
+  }
 }

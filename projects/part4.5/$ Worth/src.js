@@ -28,7 +28,6 @@ function drawChart() {
                    2]);
 
   var options = {
-    title: "Player worth over time in $ millions",
     width: 1000,
     height: 400,
     bar: {groupWidth: "95%"},
