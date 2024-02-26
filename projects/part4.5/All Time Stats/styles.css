@@ -208,3 +208,32 @@ html {
   color: #555;
 }
 
+@media only screen and (max-width: 600px) {
+  .stats-image {
+    margin: 20px auto; /* Adjust margin for smaller screens */
+    max-width: 90%;
+  }
+
+  .stats-container {
+    padding: 10px; /* Adjust padding for smaller screens */
+    margin: 20px auto;
+  }
+
+  .stats-flex-container {
+    flex-direction: column; /* Change flex direction for smaller screens */
+  }
+
+  .chart-container {
+    text-align: center; /* Center the chart on smaller screens */
+  }
+
+  .stats-info {
+    margin-left: 0; /* Reset margin for smaller screens */
+    margin-top: 20px; /* Add some top margin for smaller screens */
+  }
+
+  .stat {
+    margin-bottom: 10px; /* Adjust margin for smaller screens */
+    text-align: center; /* Center the stats on smaller screens */
+  }
+}
