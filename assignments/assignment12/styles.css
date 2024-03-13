@@ -72,6 +72,12 @@ body h2 {
   word-wrap: break-word;
 }
 
+.column img {
+  max-width: 800px;
+  max-height: 400px;
+
+}
+
 @media (min-width: 1360px) {
   .column {
     width: calc(33.333% - 250px);
