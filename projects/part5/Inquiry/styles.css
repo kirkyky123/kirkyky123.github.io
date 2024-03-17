@@ -1,0 +1,54 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #000;
+  color: white;
+}
+
+.inquiry-section {
+  background-color: #222;
+  padding: 30px;
+  border-radius: 10px;
+  width: 50%;
+  margin: 200px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.inquiry-section h2 {
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.inquiry-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  min-height: 100px;
+  box-sizing: border-box;
+}
+
+.inquiry-form button {
+  border: white solid 1px;
+  width: 100%;
+  padding: 15px;
+  background-color: #55555551;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.inquiry-form button:hover {
+  background-color: #555;
+}
+
+@media (max-width: 768px) {
+  .inquiry-section {
+      width: 90%;
+  }
+}
