@@ -52,6 +52,13 @@ html {
   z-index: 10;
 }
 
+.player_title{
+  text-align: center;
+  background-color: black;
+  margin-top: 30px;
+  margin-bottom: -80px;
+}
+
 .menu-toggle {
   display: flex;
   flex-direction: column;

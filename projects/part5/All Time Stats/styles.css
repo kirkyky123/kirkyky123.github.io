@@ -7,6 +7,14 @@ html {
   color: white;
 }
 
+
+.player_title{
+  text-align: center;
+  background-color: black;
+  margin-top: 30px;
+  margin-bottom: -50px;
+}
+
 .navbar {
   width: 100%;
   background-color: #333;
@@ -115,7 +123,7 @@ html {
   background-color: #ffffff;
   border-radius: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin: 100px auto;
+  margin: 70px auto;
   padding: 20px;
   display: flex;
   align-items: center;
@@ -148,16 +156,9 @@ html {
   text-align: center;
 }
 
-.chart-container {
+.chart-container img {
   flex: 1;
-}
-
-.donut-chart {
-  margin-right: 10px;
-  width: 200px;
-  height: 200px;
-  background-image: conic-gradient(#ffa07a 25%, #ddd 25%, #ddd 50%, #ff6347 50%, #ff6347 75%, #ddd 75%);
-  border-radius: 50%;
+  border-radius: 500px;
 }
 
 .stats-info {

@@ -31,33 +31,36 @@
       </ul>
     </div>
   </nav>
+  <div class="player_title">
+    <h1 id="playerName">Player name</h1>
+  </div>
   <div class="stats-image" id="top-stats">
     <span class="stats-image">
       <div class="stats-container">
         <h1>Current Season Statistics</h1>
         <div class="stats-flex-container">
           <div class="chart-container">
-            <div class="donut-chart"></div>
+            <img src="ball.png" alt="image of ball" width="200px" height="200px">
           </div>
           <div class="stats-info">
             <div class="stat">
               <span class="dot dot-shot"></span>
-              <span class="value">0.28</span>
+              <span class="value" id="shotToGoalRatio">Loading...</span>
               <span class="label">Shot to goal ratio</span>
             </div>
             <div class="stat">
               <span class="dot dot-goal"></span>
-              <span class="value">0.37</span>
+              <span class="value" id="goalContributionPerGame">Loading...</span>
               <span class="label">Goal contribution per game</span>
             </div>
             <div class="stat">
               <span class="dot dot-assist"></span>
-              <span class="value">0.22</span>
+              <span class="value" id="assistsPerGame">Loading...</span>
               <span class="label">Assists per game</span>
             </div>
             <div class="stat">
               <span class="dot dot-freekick"></span>
-              <span class="value">0.13</span>
+              <span class="value" id="freeKicksPerGame">Loading...</span>
               <span class="label">Free kicks per game</span>
             </div>
           </div>
