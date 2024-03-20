@@ -23,7 +23,7 @@ form.addEventListener('submit', (event) => {
   };
 
   const listItem = document.createElement('li');
-  listItem.textContent = `Name: ${player.name}, Shot-to-Goal Ratio: ${player.current_season_stats.shot_to_goal_ratio}, Goal Contribution per Game: ${player.current_season_stats.goal_contribution_per_game}, Assists per Game: ${player.current_season_stats.assists_per_game}, Free Kicks per Game: ${player.current_season_stats.free_kicks_per_game}`;
+  listItem.textContent = `Name: ${player.name}, Shot-to-Goal Ratio: ${player.current_season_stats.shot_to_goal_ratio}, Goal Contribution per game: ${player.current_season_stats.goal_contribution_per_game}, Assists per game: ${player.current_season_stats.assists_per_game}, Free Kicks per game: ${player.current_season_stats.free_kicks_per_game}`;
   playerList.appendChild(listItem);
 
   successMessage.style.display = 'block';

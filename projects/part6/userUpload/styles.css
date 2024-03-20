@@ -8,54 +8,43 @@ html {
 }
 
 h2 {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 .inside-section {
   background-color: #27323d;
-  padding: 30px;
+  padding: 20px;
   border-radius: 10px;
-  width: 50%;
-  margin: 200px auto;
+  max-width: 600px;
+  margin: 50px auto;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-}
-
-.text-center p{
-  font-style: italic;
-  color: rgba(255, 255, 255, 0.755);
 }
 
 .input-label {
   margin-bottom: 20px;
 }
 
-.input-label textarea {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 20px;
-  border: none;
-  border-radius: 5px;
-  min-height: 100px;
-  box-sizing: border-box;
+.input-label label {
+  display: block;
+  margin-bottom: 5px;
 }
 
 .input-label input {
-  padding: 5px;
-  margin-bottom: 20px;
+  width: 95%;
+  padding: 10px;
   border: none;
   border-radius: 5px;
-  position: absolute;
-  width: 200px;
-  left: 900px;
   font-family: "Courier New", Courier, monospace;
 }
 
 .submit {
-  border: white solid 1px;
+  display: block;
   width: 100%;
-  padding: 15px;
+  padding: 10px;
   background-color: #55555551;
   color: white;
+  border: white solid 1px;
   font-size: 1em;
   cursor: pointer;
   border-radius: 5px;
@@ -67,12 +56,28 @@ h2 {
   background-color: #555;
 }
 
-.submission-message {
+.success-message {
+  text-align: center;
+  margin-bottom: 20px;
   font-style: italic;
 }
 
+.player-list h3 {
+  text-align: center;
+}
+
+.submission-message {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+#player-list {
+  list-style-type: none;
+  padding: 0;
+}
+
 @media (max-width: 768px) {
-  .inquiry-section {
+  .inside-section {
     width: 90%;
   }
 }
